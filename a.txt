@@ -1,0 +1,4 @@
+www.baidu.com 12
+www.sohu.com 34
+www.taobao.com 24
+www.baidu.com 30

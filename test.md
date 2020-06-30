@@ -14,3 +14,89 @@
 	 应用层  HTTP FTP  SMTP    
 	
 	
+<hr/>	
+	
+一次完整的http请求
+
+TCP UDP协议的区别
+
+
+get 和 post的区别
+
+
+mysql的搜索引擎，区别
+
+请按照 name salary rank(薪水排名)  按照薪水从高到低排序,实现下面的输出
+
+	 CREATE TABLE `test_salary` (
+	  `id` int(11) NOT NULL auto_increment COMMENT '用户id，主键',
+	  `name` varchar(30) NOT NULL COMMENT '用户名',
+	  `salary` int(11) NOT NULL,
+	   PRIMARY KEY  (`id`)
+	 ) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=gbk  
+	
+	 +----+------+--------+
+	 | id | name | salary |
+	 +----+------+--------+
+	 |  1 | tom  |     10 |
+	 |  2 | tom2 |     70 |
+	 |  3 | tom3 |     30 |
+	 |  4 | tom4 |     10 |
+	 |  5 | tom5 |      5 |
+	 |  6 | tom6 |     30 |
+	 |  7 | tom7 |     80 |
+	 +----+------+--------+
+
+
+主键ID和二级索引的区别
+
+
+int(10) 10代表什么？  varchar(10)
+
+主从复制的原理, 注册延时的解决方案
+
+
+
+redis的各种数据类型的使用场景
+
+redis持久化的两种方式
+
+redis主从架构， 过期的key是怎么处理的？
+
+
+redis的删除策略
+
+
+手写一个单例模式
+
+手写一个快排
+
+
+
+epoll 和 select 的区别
+
+列出你知道的linux的命令
+
+
+有一个nginx的文件， 第一列代表请求的域名， 第二列代表时长， 求域名为百度的平均访问时长
+
+	文本内容
+	
+	www.baidu.com 12
+	www.sohu.com 34
+	www.taobao.com 24
+	www.baidu.com 30
+	
+	
+	shell命令:
+	
+	grep 'baidu' a.txt|awk '{print $NF}'|awk '{sum+=$0;} END {if (sum==0) print 0 ; else print sum/NR}'
+
+
+有三个人去住旅馆，每个人10元钱，一共30．这天老板高兴，于是一共只收25元钱，让服务员把5元钱还给顾客，但是服务员爱占小便宜，只还给这三个人每人1元，把那2块钱塞进自己的腰包里去了．这样看来，每个人花了9元钱住宿，一共27元，再加上服务员的那2块钱，一共29元，可是一开始一共有30元，请问那1元钱跑到哪里去了。
+
+
+
+
+
+
